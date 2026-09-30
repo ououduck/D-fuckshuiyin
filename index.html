@@ -2,13 +2,33 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>D-fuckshuiyin | 智能去水印</title>
-    <script async src="https://docs.opencv.org/4.8.0/opencv.js" onload="window.cvLoaded=true"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#121212" />
+    <meta name="color-scheme" content="dark" />
+    <title>D-fuckshuiyin | 浏览器本地智能去水印</title>
+    <meta
+      name="description"
+      content="在浏览器本地完成的智能图片去水印工具：涂抹标记水印区域后由 OpenCV.js 图像修复算法处理，图片不上传服务器，支持手机与桌面端。"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="D-fuckshuiyin | 浏览器本地智能去水印" />
+    <meta
+      property="og:description"
+      content="涂抹即去水印。基于 OpenCV.js Inpainting，全部处理在本地浏览器完成，不上传服务器。"
+    />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      html {
+        background: #121212;
+      }
+    </style>
   </head>
   <body>
     <div id="root"></div>
+    <noscript>该工具需要在浏览器本地运行图像算法，请启用 JavaScript。</noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

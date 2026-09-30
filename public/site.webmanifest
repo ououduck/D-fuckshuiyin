@@ -1,0 +1,19 @@
+{
+  "name": "D-fuckshuiyin 智能去水印",
+  "short_name": "去水印",
+  "description": "在浏览器本地完成的智能图片去水印工具",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#121212",
+  "theme_color": "#121212",
+  "icons": [
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
